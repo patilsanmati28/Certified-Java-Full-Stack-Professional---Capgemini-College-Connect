@@ -1,0 +1,17 @@
+Your task here is to implement a Java code based on the following specifications. Note that your code should match the specifications in a precise manner. 
+Consider default visibility of classes, data fields and methods unless mentioned otherwise.
+Specifications:
+class definitions:
+class Source:
+visibility: public
+method definition:
+countChars(char[] arr): method that accepts a character array and count the number of times each character is present in the array.
+return type: Map<Character, Integer>
+visibility: public
+Task:
+Create a class Source and implement the below given method:
+• countChars(char[] arr): accept a character array and count the number of times each character is present in the array.
+Sample Input
+'a', 'f', 'c', 'd', 'a', 'c'
+Sample Output
+{a=2, c=2, d=1, f=1}
